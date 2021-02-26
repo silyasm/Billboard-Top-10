@@ -13,6 +13,7 @@
 		3F598D3525E8063500AFDEDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F598D3425E8063500AFDEDD /* Preview Assets.xcassets */; };
 		3F598D4025E8063600AFDEDD /* Billboard_Top_10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F598D3F25E8063600AFDEDD /* Billboard_Top_10Tests.swift */; };
 		3F598D4B25E8063600AFDEDD /* Billboard_Top_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F598D4A25E8063600AFDEDD /* Billboard_Top_10UITests.swift */; };
+		3F598D6425E89AD100AFDEDD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F598D6325E89AD100AFDEDD /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F598D4625E8063600AFDEDD /* Billboard Top 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billboard Top 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F598D4A25E8063600AFDEDD /* Billboard_Top_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billboard_Top_10UITests.swift; sourceTree = "<group>"; };
 		3F598D4C25E8063600AFDEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F598D6325E89AD100AFDEDD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				3F598D2F25E8062F00AFDEDD /* ContentView.swift */,
 				3F598D3125E8063500AFDEDD /* Assets.xcassets */,
 				3F598D3625E8063500AFDEDD /* Info.plist */,
+				3F598D6325E89AD100AFDEDD /* SwiftyJSON.swift */,
 				3F598D3325E8063500AFDEDD /* Preview Content */,
 			);
 			path = "Billboard Top 10";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F598D6425E89AD100AFDEDD /* SwiftyJSON.swift in Sources */,
 				3F598D3025E8062F00AFDEDD /* ContentView.swift in Sources */,
 				3F598D2E25E8062F00AFDEDD /* Billboard_Top_10App.swift in Sources */,
 			);
